@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grid</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body{
+			 background-color: #252525;
+			 font-family: 'Merriweather', serif;
+			 user-select: none;
+		}
+		.grid-container {
+		  display: grid;
+		  grid-template-columns: auto auto auto auto;
+		  grid-gap: 10px;
+		  padding: 10px;
+		  color: #565656;
+		  height: 100vh;
+		}
+
+		.grid-container > div {
+		  padding: 25px;
+		  letter-spacing: 1px;
+		  transition: 0.4s;
+		}
+		.grid-container > div > p{ 
+			font-size: 12px;
+		}
+		.grid-container div:hover{
+		    background-color: #e00980 !important;
+		    color: #fff;
+		}
+
+		.item2 {
+		  grid-column: 2 / span 2;
+		}
+		.item3 {
+		  grid-row: 1 / span 2;
+		  grid-column: 4 / span 2;
+		}
+		.item6 {
+		  grid-row: 2 / span 3;
+		  grid-column: 3 / span 1;
+		}
+		.item7 {
+		  grid-row: 3 / span 2;
+		  grid-column: 1 / span 2;
+		}
+		.item8 {
+		  grid-row: 3 / span 2;
+		  grid-column: 4 / span 2;
+		}
+		
+		.bg-dark{
+			background-color: #343a40!important;
+		}
+
+		@media only screen and (max-width: 800px) {
+			.grid-container{
+			    display: block;
+			  }
+			.grid-container > div{
+				margin: 10px;
+			}
+		}
+	</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item1 bg-dark">
+		<h5>Title Text</h5>
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ."</p>
+  </div>
+  <div class="item2 bg-dark">
+		<h5>Title Text</h5>
+		
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  </div>
+  <div class="item3 bg-dark">
+		<h5>Title Text</h5>
+		
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  </div>  
+  <div class="item4 bg-dark">
+		<h5>Title Text</h5>
+		
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ."</p>
+  </div>
+  <div class="item5 bg-dark">
+		<h5>Title Text</h5>
+		
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."</p>
+  </div>
+  <div class="item6 bg-dark">
+		<h5>Title Text</h5>
+		
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  </div>
+  <div class="item7 bg-dark">
+		<h5>Title Text</h5>
+		
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+  </div>
+  <div class="item8 bg-dark">
+		<h5>Title Text</h5>
+		
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+  </div>
+</div>
+</body>
+</html>
