@@ -1,0 +1,8 @@
+{
+	"deploy_path": "/home/mamta/public_html/git/",
+	"task": [
+        "bin/webuzo -R images", 
+        "bin/webuzo index.php", 
+        "bin/webuzo style.css"
+    ]
+}
