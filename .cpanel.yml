@@ -1,5 +1,0 @@
----
-    deployment:
-      tasks:
-        - export DEPLOYPATH=/home/pratiknu/public_html/gitdeploy
-        - /bin/cp -R images $DEPLOYPATH
