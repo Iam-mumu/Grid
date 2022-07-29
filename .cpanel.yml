@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/pratiknu/public_html/gitdeploy
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp master_file $DEPLOYPATH
+    - /bin/cp deplpy_1.txt $DEPLOYPATH
+    - /bin/cp cpanel_local.txt $DEPLOYPATH
