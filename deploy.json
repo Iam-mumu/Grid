@@ -1,0 +1,8 @@
+{
+	"task": [
+        "export DEPLOYPATH=/home/mamta/public_html/git/",
+        "/usr/bin/cp -R images $DEPLOYPATH", 
+        "/usr/bin/cp index.php $DEPLOYPATH", 
+        "/usr/bin/cp style.css $DEPLOYPATH"
+    ]
+}
