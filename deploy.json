@@ -1,0 +1,7 @@
+{
+	"task": [
+        "export DEPLOYPATH=/home/mamta/public_html/gitdeploy/",
+        "/usr/bin/cp deploy_2.txt $DEPLOYPATH", 
+        "/usr/bin/cp master_file $DEPLOYPATH"
+    ]
+}
