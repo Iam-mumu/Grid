@@ -1,6 +1,7 @@
 {
     "DEPLOYPATH": "/home/mamta/public_html/gitdeploy/",
 	"task": [
+        "/usr/bin/cp * $DEPLOYPATH", 
         "/usr/bin/cp master_file $DEPLOYPATH"
     ]
 }
