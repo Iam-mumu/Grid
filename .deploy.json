@@ -1,5 +1,5 @@
 {
-    "DEPLOYPATH": "/home/brijesh/public_html/gitdeploy/",
+    "DEPLOYPATH": "/home/mamta/public_html/gitdeploy/",
 	"task": [
         "master",
         "check_conflict",
